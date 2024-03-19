@@ -5,6 +5,7 @@ pipeline {
         steps {
           script {
             def mvar = "valueOfMvar"
+            return this
         }
       }
     }
